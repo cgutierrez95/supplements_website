@@ -21,7 +21,7 @@
   label {
     box-sizing: border-box;
     display: inline-block;
-    border: 1px solid black;
+    border: 0px;
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -29,6 +29,7 @@
     font-weight: bold;
     text-align: center;
     user-select: none;
+    color: #FF9F29;
   }
   
   label{
@@ -48,16 +49,19 @@
   ul {
     margin-top:0;
     padding: 0;
-    width: 200px;
+    width: 100px;
   }
   
   li {
     display: block;
-    background: #4E9F3D;
-    margin: 0;
-    padding: 10px;
+    background: #1E5128;
+    margin: 3px;
+    padding: 5px;
     list-style: none;
-    border-bottom: 1px solid grey;
+    border: 2px solid #FF9F29;
+    border-radius: 15px;
+    text-align: center;
+    color: #FF9F29;
   }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
