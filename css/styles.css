@@ -29,7 +29,7 @@
     font-weight: bold;
     text-align: center;
     user-select: none;
-    color: #FF9F29;
+    color: goldenrod;
   }
   
   label{
@@ -58,10 +58,11 @@
     margin: 3px;
     padding: 5px;
     list-style: none;
-    border: 2px solid #FF9F29;
+    border: 2px solid goldenrod;
     border-radius: 15px;
     text-align: center;
-    color: #FF9F29;
+    font-weight: bold;
+    color: goldenrod;
   }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
