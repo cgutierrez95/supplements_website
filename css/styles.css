@@ -1,68 +1,17 @@
-body{
-  background-color: #000000;
+.gradient-background {
+  background: linear-gradient(300deg, #191A19, #1E5128);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
 
-#logo{
-height: 120px;
-width: 120px;
-border-radius: 100%;
-}
-
-#page-header{
-
-  display: flex;
-  background-color: #1E5128;
-  justify-content: center;
-  gap: 15px;
-  align-items: center;
-
-
-  font-weight: bold;
-  color: goldenrod;
-  font-size: 1.5rem;
-}
-
-#search-bar > input{
- background-color: lightgrey;
- flex-basis: 100;
-}
-
-
-
-
-#sideway-scroll{
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#sweep-image{
-  width: 50%;
-  height: 600px;
-  /*flex-basis: 100%;*/
-}
-
-#categories{
-  margin:0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:10px;
-  flex-wrap: wrap;
-  color: goldenrod;
-}
-
-.categories-image{
-  margin: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:5px;
-  color: goldenrod;
-}
-
-.categories-image > img{
-  height: 5%;
-  width: 5%;
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
