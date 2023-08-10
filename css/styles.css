@@ -120,6 +120,18 @@
   height: 500px;
 }
 
+.hr-product-divider{
+  border-color: goldenrod;
+  border-width: 5px;
+}
+
+.product-text{
+  color: #1E5128 !important;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
