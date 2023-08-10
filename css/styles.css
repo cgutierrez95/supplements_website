@@ -105,15 +105,22 @@
     font-weight: bold;
     font-size: .9rem;
   
-  
     padding-left: 9px !important;
     padding-right: 0px;
-    margin: 0px;
-    gap: 0px;
-    
 
   }
 }
+
+.container{
+  padding-top: 30px; 
+  padding-bottom: 30px; 
+}
+
+.carrousel-image{
+  height: 500px;
+}
+
+
 
 
 body{
